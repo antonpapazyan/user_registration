@@ -1,0 +1,23 @@
+
+#########################################
+//getting users information
+GET http://localhost:3000/register_user
+
+#########################################
+//posting new user
+POST http://localhost:3000/register_user
+Content-Type: application/json
+{
+    "name" : "Anton",
+    "password" : "admin"
+}
+
+##########################################
+//post to login route
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "name" : "Anton",
+    "password" : "admin"
+}

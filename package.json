@@ -1,0 +1,25 @@
+{
+  "name": "user_registration",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon js/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anton3636/user_registration.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anton3636/user_registration/issues"
+  },
+  "homepage": "https://github.com/Anton3636/user_registration#readme",
+  "dependencies": {
+    "bcrypt": "^4.0.1",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.2"
+  }
+}
